@@ -22,7 +22,7 @@ function outputPower = calculate_WholeOutput_MaxTotalOutput(CR, SolarIR, envTemp
                - 0.000095 .* IRR .* AT + 0.000037 .* IRR .* V + 0.000156 .* AT .* V ...
                - 1.08430e-6 .* IRR.^2 + 0.045354 .* AT.^2 - 0.000053 .* V.^2;
 
-    % 6. 最后求和
+    % 5. 最后求和
     outputPower = sum(outPower);
 
 end
