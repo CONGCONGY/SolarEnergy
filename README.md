@@ -1,2 +1,2 @@
 # SolarEnergy
-PV/T Related Work.
+Solar Energy Related Work.
