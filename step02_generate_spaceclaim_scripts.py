@@ -1,12 +1,3 @@
-"""Generate SpaceClaim scripts from topology point files.
-
-This script preserves the current working coordinate convention. The paper
-states L=200 mm, W=100 mm, and channel height 0.5..2.0 mm, but the mapping from
-those physical dimensions to the existing 50 x 200 script coordinates and
-0..5 topology heights is not explicit in the extracted Markdown. Geometry
-values are therefore left unchanged until the convention is confirmed.
-"""
-
 import argparse
 import os
 from path_selection import PathSelectionError, choose_existing_directory, choose_output_directory, fail_with_path_error
