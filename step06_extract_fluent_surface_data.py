@@ -1,11 +1,3 @@
-"""Export solved Fluent surface data for the current temperature-only dataset.
-
-The paper describes temperature and pressure supervision, but the current
-downstream pickle schema and training scripts expose only temperature labels.
-Pressure export is therefore not added here until the Fluent field name,
-surface convention, and dataset schema are confirmed.
-"""
-
 import argparse
 import os
 import ansys.fluent.core as pyfluent
