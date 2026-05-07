@@ -1,2 +1,2 @@
 # SolarEnergy
-Solar Energy Related Work.
+Solar Energy Related Work
