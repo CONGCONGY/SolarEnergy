@@ -1,12 +1,3 @@
-"""Paper-target DeepONet training entry with legacy schema compatibility.
-
-The paper target schema uses 3D trunk coordinates and two supervised outputs:
-temperature and pressure. The legacy schema remains supported for existing
-2D-coordinate, temperature-only pickle files. This script never fabricates
-pressure labels; paper mode fails clearly if pressure or 3D coordinates are
-missing.
-"""
-
 import argparse
 import os
 import pickle
