@@ -1,12 +1,3 @@
-"""Generate the Perlin-noise topology library used by the paper workflow.
-
-The Perlin settings match the extracted paper requirements: 1,000 unique seeds
-sampled from 1..100000, octaves=6, scale=10.0, and zoom factor 5. The mapping
-between this script's 50 x 200 coordinate footprint / normalized 0..5 height
-field and the paper's L=200 mm, W=100 mm, hmin=0.5 mm, hmax=2.0 mm geometry
-is still ambiguous, so this patch does not change geometry generation.
-"""
-
 import argparse
 import os
 import numpy as np
