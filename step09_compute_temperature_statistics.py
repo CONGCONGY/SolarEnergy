@@ -1,9 +1,3 @@
-"""Write per-file maximum and average temperature statistics.
-
-This remains a temperature-only post-processing step. Pressure-drop metrics
-should be added only after the pressure export and label schema are confirmed.
-"""
-
 import argparse
 import os
 import pandas as pd
