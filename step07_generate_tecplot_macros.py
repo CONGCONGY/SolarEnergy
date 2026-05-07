@@ -1,11 +1,3 @@
-"""Generate Tecplot macro commands for the current temperature grid export.
-
-The macro preserves the existing 251 x 1001 rectangular interpolation grid and
-temperature-only output. The paper's pressure-field and 3D-coordinate training
-requirements are not implemented here because the pressure export/schema and
-coordinate convention are still unresolved.
-"""
-
 import argparse
 import os
 
