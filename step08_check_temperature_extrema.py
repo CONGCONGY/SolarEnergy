@@ -1,9 +1,3 @@
-"""Scan Tecplot-exported temperature data and report a temperature-only check.
-
-Pressure-drop validation is a paper requirement, but it needs pressure labels
-or exported pressure fields that are not present in the current data path.
-"""
-
 import argparse
 import os
 import pandas as pd
